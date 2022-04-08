@@ -16,8 +16,8 @@ onMounted(() => {
 <template>
     <div class="container mt-4">
         <h1>User List</h1>
-        <table class="table table-striped table-bordered">
-            <thead>
+        <table class="table table-hover">
+            <thead class="bg-success">
                 <th>ID</th>
                 <th>Nama</th>
                 <th>Email</th>
